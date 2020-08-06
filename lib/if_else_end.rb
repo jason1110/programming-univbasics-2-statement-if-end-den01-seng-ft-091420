@@ -17,5 +17,5 @@
 #end
 
 puts "You know what year it is??"
-this_year = 2020
+this_year = Time.now.year
 puts "No, I don't" unless this_year == 2019
