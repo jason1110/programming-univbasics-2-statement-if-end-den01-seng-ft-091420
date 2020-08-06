@@ -2,8 +2,8 @@
 #  puts "This code runs!"
 #end
 
-even_time = even?Time.now
-if even_Time
+even_time = even?
+if even_time
   puts "Even!"
 else
   puts "Odd!"
