@@ -2,7 +2,7 @@
 #  puts "This code runs!"
 #end
 
-even_time = Time.now.even?
+even_time = Time.now.to_i.even?
 if even_time
   puts "Even!"
 else
