@@ -2,12 +2,12 @@
 #  puts "This code runs!"
 #end
 
-even_time = Time.now
-#if even_Time
-#  puts "Even!"
-#else
-#  puts "Odd!"
-#end
+even_time = Time.now.even?
+if even_Time
+  puts "Even!"
+else
+  puts "Odd!"
+end
 
 #if
 #  puts
@@ -17,6 +17,3 @@ even_time = Time.now
 #  puts
 #end
 
-puts "You know what year it is??"
-this_year = Time.now.year
-puts "No, I don't" unless this_year == 2020
