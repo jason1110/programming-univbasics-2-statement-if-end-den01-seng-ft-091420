@@ -2,10 +2,11 @@
 #  puts "This code runs!"
 #end
 
-#if
-#  puts
+even_time = Time.now
+#if even_Time
+#  puts "Even!"
 #else
-#  puts
+#  puts "Odd!"
 #end
 
 #if
